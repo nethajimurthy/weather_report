@@ -24,8 +24,8 @@ const cardData=[
         val:8,
         max:40,
         logo: wind,
-        unit:' km/hr',
-        comment:''
+        unit:'',
+        comment:'km/hr'
     },
     {
         title:'Precipation',

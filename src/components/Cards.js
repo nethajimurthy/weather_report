@@ -14,7 +14,7 @@ const Cards = ({ data }) => {
       </div>
       <div className="Progresslabels">
         {[...new Array(5)].map((val,idx)=>{
-            return <p>{Math.ceil(vals*idx)}</p>
+            return <p>{Math.ceil(vals*idx)}{data.unit}</p>
         })}
       </div>
       <progress value={data.val} max={data.max} className='Progress'/>
