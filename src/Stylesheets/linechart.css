@@ -1,0 +1,73 @@
+.MainChart{
+    position: relative;
+    top: 2rem;
+    height: 22rem;
+    width: 65rem;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainChart > .Top {
+    position: relative;
+    left: 3rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.LeftDrops{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.LeftDrops > select, .LeftDrops > p {
+    height: 40%;
+    background-color: rgb(183, 178, 178);
+    border-radius: 1rem;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.LeftDrops > p {
+    height: 35%;
+    width: 40%;
+    padding-left: 5%;
+    margin: 0px;
+    padding-top: 1%;
+}
+
+.IconsLabels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 63.5rem;
+}
+
+.LabelIcon{
+    height: 2rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.LabelIcon > img {
+    height: 1rem;
+    width: 1rem;
+    padding-left: .5rem;
+}
+
+.LineChart {
+    height: 12rem;
+    width: 60rem;
+    padding-left: 2.5rem;
+}
+

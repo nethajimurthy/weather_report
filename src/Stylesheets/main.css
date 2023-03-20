@@ -1,0 +1,65 @@
+.Main {
+  display: block;
+  height: 97.5vh;
+  width: 99vw;
+  background-color: #E4F1FF;
+  border-radius: 3rem;
+  position: relative;
+  color: black;
+  overflow: scroll;
+  overflow-x: hidden;
+  animation-name : fromleft;
+  animation-duration: 2s;
+}
+
+@keyframes fromleft {
+  0%{
+    margin-left: -350px;
+    width: 150vw;
+  }
+  60%{
+    margin-left: 20px;
+  }
+}
+
+.Main::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+}
+
+.Left > h3 {
+  margin-bottom: 0.5rem;
+}
+
+.Left > p {
+  width: auto;
+  margin: 0px;
+}
+
+.Head {
+  width: 100%;
+  padding-bottom: .5rem;
+  position: sticky;
+  top: -10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #E4F1FF;
+}
+
+.Right {
+  margin-top: 2rem;
+  margin-right:2rem ;
+}
+
+.Right > img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.Left{
+  margin-left: 4rem;
+}

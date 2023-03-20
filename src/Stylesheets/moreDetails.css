@@ -1,0 +1,59 @@
+.MoreDetails{
+    padding-bottom: 3rem;
+    min-height: 20rem;
+    height: auto;
+    width: 68rem;
+    position: relative;
+    left: 4rem;
+    top: 4rem;
+}
+
+.CardsArea{
+    min-height: 20rem;
+    height: auto;
+    width: 65rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.Card{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 10rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.CardTop, .Value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 1rem;
+}
+
+.CardTop > img{
+    background-color: #5C9CE5;
+    height: 2rem;
+    width: 2rem;
+    border-radius: .5rem;
+}
+
+progress{
+    height: 2rem;
+    width: 15rem;
+    margin-left: 2.5rem;
+}
+
+.Progresslabels{
+    width: 18rem;
+    margin-left: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    color: rgb(207, 205, 203);
+    margin-bottom: -.5rem;
+}
